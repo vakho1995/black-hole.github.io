@@ -1,0 +1,24 @@
+@keyframes horizon-attribute{
+    0%{
+        left: 30%;
+    }
+    100%{
+        left: 70%;
+    }
+}
+@keyframes left-box{
+    0%{opacity: 100%;top: 5%; left: 20%;}
+    50%{ top: 25%; left: 25%;}
+    100%{ top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 100%;}
+}
+@keyframes right-box{
+    0%{opacity: 100%;top: 5%; left: 60%;}
+    50%{ top: 25%; left: 55%;}
+    100%{ top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 100%;}
+}
+@keyframes title-p{
+    0%{font-size: 50px;letter-spacing: 50px;}
+    50%{font-size: 50px;letter-spacing: 50px;}
+    95%{font-size: 0px;letter-spacing: 0px;}
+    100%{font-size: 0px;letter-spacing: 0px;}
+}

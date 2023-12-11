@@ -1,0 +1,238 @@
+/* title */
+.flex{
+    display: flex;
+}
+.left-box{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    opacity: 0;
+    animation: left-box 5s  linear infinite;
+    z-index: 15;
+}
+.right-box{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    opacity: 0;
+    animation: right-box 5s  ease-in infinite;
+    z-index: 15;
+}
+.title-p{
+    color: #fff;
+    font-size: 50px;
+    font-family: monospace;
+    letter-spacing: 50px;
+    text-shadow: #fff 10px 0 15px;
+    animation: title-p 5s  ease-in infinite;
+}
+/* black hole */
+.wraper{
+    width: 100%;
+    height: 700px;
+    background-color:#000000;
+    position: relative;
+}
+.black-hole{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 11;
+}
+.black-hole-back{
+    width: 125px;
+    height: 115px;
+    background-color: black;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    z-index: 10;
+}
+
+.hole-horizon-2{
+    width: 150px;
+    height: 80px;
+    background-color:rgb(251, 145, 107);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-68%);
+    border-radius: 100PX 100PX 0 0;
+}
+.hole-horizon{
+    width: 250px;
+    height: 35px;
+    background-color:rgb(251, 145, 107);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, 0);
+    border-radius: 100%;
+    z-index: 12;
+}
+.horizon-back{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    width: 124px;
+    height: 25px;
+    background-color: black;
+    border-radius: 100%;
+    z-index: 13;
+    
+}
+/* animation */
+.horizon-attribute{
+    position: absolute;
+    top: 49.5%;
+    left:27.4%;
+    transform: translate(-50%,-50%);
+    width: 19px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000 ;
+    z-index: 14;
+    animation: horizon-attribute 5s  linear infinite;
+}
+.horizon-attribute-2{
+    position: absolute;
+    top: 49.7%;
+    left:27.6%;
+    transform: translate(-50%,-50%);
+    width: 38px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 8s linear infinite;
+}
+.horizon-attribute-3{
+    position: absolute;
+    top: 50%;
+    left:27.8%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 1s linear infinite;
+}
+.horizon-attribute-5{
+    position: absolute;
+    top: 50.4%;
+    left:28.2%;
+    transform: translate(-50%,-50%);
+    width:35px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 2s linear infinite;
+}
+.horizon-attribute-6{
+    position: absolute;
+    top: 50.6%;
+    left:28.4%;
+    transform: translate(-50%,-50%);
+    width: 41px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 0.5s linear infinite;
+}
+.horizon-attribute-7{
+    position: absolute;
+    top: 50.8%;
+    left:28.6%;
+    transform: translate(-50%,-50%);
+    width: 56px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 3.4s linear infinite;
+}
+.horizon-attribute-8{
+    position: absolute;
+    top: 51%;
+    left:28.8%;
+    transform: translate(-50%,-50%);
+    width: 45px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 5s linear infinite;
+}
+.horizon-attribute-9{
+    position: absolute;
+    top: 51.2%;
+    left:29%;
+    transform: translate(-50%,-50%);
+    width: 35px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 6s linear infinite;
+}
+.horizon-attribute-10{
+    position: absolute;
+    top: 51.4%;
+    left:29.2%;
+    transform: translate(-50%,-50%);
+    width: 47px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 4.5s linear infinite;
+}
+.horizon-attribute-11{
+    position: absolute;
+    top: 51.6%;
+    left:29.4%;
+    transform: translate(-50%,-50%);
+    width: 65px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 2s linear infinite;
+}
+.horizon-attribute-12{
+    position: absolute;
+    top: 51.8%;
+    left:29.6%;
+    transform: translate(-50%,-50%);
+    width: 47px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 5.5s linear infinite;
+}
+.horizon-attribute-13{
+    position: absolute;
+    top: 52%;
+    left:29.8%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 0.1px;
+    border-radius: 100%;
+    background-color: #000;
+    z-index: 14;
+    animation: horizon-attribute 5s 3s linear infinite;
+}
